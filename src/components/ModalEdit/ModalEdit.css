@@ -1,0 +1,70 @@
+#modalEditWrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#modalEditBackdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#modalEditContainer{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 36rem;
+    width: 51rem;
+    border-radius: 2rem;
+    padding: 5rem;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.25);
+    z-index: 101;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bookUpModalEdit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#closeModalEdit{
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+#bookCoverModalEdit{
+    width: 20rem;
+    align-self: center;
+}
+
+#bookDownModalEdit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+#titleModalEdit{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#descriptionModalEdit{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    text-align: justify;
+    margin-top: 1rem;
+}

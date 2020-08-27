@@ -1,0 +1,7 @@
+#landingContainer{
+    display: flex;
+    height: 58.8rem;
+    background-image: url('../../img/background.jpg');
+    flex-direction: column;
+    flex-wrap: wrap;
+}
